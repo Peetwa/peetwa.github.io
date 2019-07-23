@@ -1,37 +1,9 @@
-## Lets Make a Deal on Deal or Neal McBeal
+## Automatic Machine Learning Architecture Selection for Breast MRI Classification
 
-You can use the [editor on GitHub](https://github.com/Peetwa/peetwa.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
+Convolutional neural networks (CNN) are increasingly used for image classification tasks.  In general, the architecture of these networks are set ad hoc with little rationale for selected various components such as number of layers, layer depth, and convolution settings. In this work, we develop a structured approach to explore and select architectures that provide optimal classification performance.  This was constructed with an IRB-approved data set containing 10,924 2-D maximum intensity projection (MIP) breast MRI images containing breast cancer lesion present or lesion absent classes. The architecture search method employs a genetic algorithm to generate CNN-based classifiers, representing as strings and mutating them.  During architecture updates, each classifier goes through supervised machine learning on the training set. The search method identifies the method with the highest validation accuracy. In initial testing, we built an optimal CNN that classifies lesion present images with 75% accuracy and achieves an AUC score of 83%. This approach offers a rational framework for architecture exploration, potentially leading to more efficient and generalizable CNN-based classifiers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Method
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Peetwa/peetwa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To find 
