@@ -67,5 +67,6 @@ Convolutional Block
 ### Example Images
 ![Classified Images](/test.svg)
 
-### Final Model
-![Final Model](/model.png)
+### Best Model
+<a href="https://peetwa.github.io/Models">Best Model</a>
+![Final Model](/Models.md)
