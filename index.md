@@ -68,4 +68,4 @@ Convolutional Block
 ![Classified Images](/test.svg)
 
 ### Best Model
-![Final Model](/Models.md)
+<a href="Models.md">link</a>
