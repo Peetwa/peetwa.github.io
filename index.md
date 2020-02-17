@@ -33,4 +33,5 @@ Convolutional Block
 ### Example Images
 ![Classified Images](/test.svg)
 
-
+### Final Model
+![Final Model](/model.png)
