@@ -30,4 +30,7 @@ Identity Block
 ![Convolutional Block](https://miro.medium.com/max/2588/1*U5wkA4O1IpY-ekXqFh0tUQ.png)
 Convolutional Block
 
+### Example Images
+![Classified Images](/test.svg)
+
 
