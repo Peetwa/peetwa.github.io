@@ -24,5 +24,10 @@ Convolutional neural networks (CNN) are increasingly used for image classificati
 ### Model Generation
 Models are generated from a base model consisting of an input layer, a convolutional layer and a pooling layer and between 1 and 10 blocks and a dense output layer. Each block can either be a identity block consisting of three convolutional layers and a skip connection, or a convolutional block consiting of three convolutional layers and a skip layer that passes through a single convolutional layer.
 
+![Identity Block](https://miro.medium.com/max/2916/1*uyXEvYztiv3fGGCCPbm8Jg.png)
+Identity Block
+
+![Convolutional Block](https://miro.medium.com/max/2588/1*U5wkA4O1IpY-ekXqFh0tUQ.png)
+Convolutional Block
 
 
